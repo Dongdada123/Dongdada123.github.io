@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+body nav {
+  margin: 0 3%;
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 3px;
+}
+
+body nav a {
+  color: brown;
+}
+/*# sourceMappingURL=web.css.map */
