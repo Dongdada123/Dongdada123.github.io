@@ -1,14 +1,39 @@
 body {
   margin: 0;
+  width: 100%;
 }
 
-body nav {
-  margin: 0 3%;
+body .benner {
+  width: 100%;
+  height: 100VH;
+  background-color: #d1e1ff;
+}
+
+body .benner nav {
+  margin: 0% 0% 2% 0;
   font-family: "Noto Sans TC", sans-serif;
   letter-spacing: 3px;
 }
 
-body nav a {
-  color: brown;
+body .benner nav a {
+  color: #281a49;
+}
+
+body .img_lanyu {
+  width: 100%;
+  height: 80vh;
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 10% 0 0 0;
+  background-image: url("./imgg/img/taiwan-lanyu_01-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+body .img_lanyu .text {
+  padding: 10% 10%;
+  line-height: 2em;
+  color: black;
 }
 /*# sourceMappingURL=web.css.map */

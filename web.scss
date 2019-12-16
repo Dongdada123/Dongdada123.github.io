@@ -1,22 +1,43 @@
 $font: 'Noto Sans TC', sans-serif;
 
+body {
+	margin: 0;
+	width: 100%;
 
+	.benner{
+		width: 100%;
+		height: 100VH;
+		background-color: rgb(209, 225, 255);
+	
+	nav {
+		margin:0% 0% 2% 0;
+		font-family: $font;
+		letter-spacing: 3px;
 
-body{
-    margin: 0;
-   
-nav{margin: 0 3%;
-     font-family:$font;
-     letter-spacing: 3px;
-     
-     a{
-       color: brown;  
-     }
+		a {
+			color: rgb(40, 26, 73);
+		}
+	}
+
 }
-
-
-
-
-
+	.img_lanyu {
+  	width: 100%;
+	height: 80vh;
+	font-family: $font;
+    margin: 10% 0 0 0;
+	background-image: url('./imgg/img/taiwan-lanyu_01-1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.9;
+	.text{
+	
+		// margin: auto;
+		padding: 10% 10%;
+		line-height: 2em;
+		color: black;
+		
+	}
+}
 
 }
